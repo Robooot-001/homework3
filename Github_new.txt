@@ -1,0 +1,17 @@
+﻿github：https://github.com/Robooot-001/homework3.git
+name：Robooot-001
+Personal access tokens：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
+
+
+請將prj_task*.txt及Github*.txt列入不上傳至github清單中
+以使用者名稱及Personal access tokens來進行遠端登入上傳
+
+
+git config --global user.name "Robooot-001"
+git config --global user.email "white19910711@gmail.com"
+git init
+git add .
+git commit -m "homewor3-main"
+git branch -M main
+git remote add origin https://github.com/Robooot-001/homework3.git
+git push -u origin main
